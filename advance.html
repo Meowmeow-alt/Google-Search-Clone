@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="advance.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="ggnavbar">
+        <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" id="small_logo">
+        <a class="btn btn-secondary" href="index.html">Google General Search</a>
+    </div>
+
+    <div class="main">
+        <h3 class="title" style="font-size:20px; color:red;">Advanced search</h3>
+    </div>
+    <div class="line"></div>
+    <div class="main">
+        <h3>Find pages with...</h3>
+
+        <form action="https://google.com/search">
+            <div class="row">
+                <div class="col-md-2"><h6 style="margin-top: 12px;">all these words:</h6></div>
+                <div class="col-md-8"><div class="input-group mb-3">
+                    <input type="text" class="form-control" name="as_q" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"><h6 style="margin-top: 12px;">this exact word or phrase:</h6></div>
+                <div class="col-md-8"><div class="input-group mb-3">
+                    <input type="text" class="form-control" name="as_epq" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"><h6 style="margin-top: 12px;">any of these words:</h6></div>
+                <div class="col-md-8"><div class="input-group mb-3">
+                    <input type="text" class="form-control" name="as_oq" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"><h6 style="margin-top: 12px;">none of these words:</h6></div>
+                <div class="col-md-8"><div class="input-group mb-3">
+                    <input type="text" class="form-control" name="as_eq" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div></div>
+            </div>
+
+            <div style="text-align: center;"><input class="btn btn-primary" type="submit" value="Advanced search"></div>
+        </form>
+    </div>
+    
+</body>
+</html>

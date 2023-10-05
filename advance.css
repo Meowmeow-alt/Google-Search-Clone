@@ -1,0 +1,63 @@
+:root {
+    --light-grey :rgb(240, 240, 240);
+    --grey: rgb(209, 209, 209);
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.ggnavbar {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.12) 45%, rgba(0, 0, 0, 0.05) 65%, rgba(0, 0, 0, 0) 100%);
+    background-origin: padding-box;
+    background-size: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    top: 0;
+    width: 100vw;
+}
+
+.btn-secondary {
+    background-color: var(--light-grey);
+    margin-left: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0;
+}
+.btn-secondary:hover {
+    background-color: var(--grey);
+    color: black;
+    border: 1px solid black;
+    border-radius: 0;
+    transition: all 0.3s;
+}
+
+#small_logo {
+    width: 80px;
+    height: 27px;
+}
+
+.main {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.line {
+    border-bottom: 1px solid var(--grey);
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}

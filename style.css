@@ -1,0 +1,94 @@
+:root {
+    --light-grey :rgb(240, 240, 240);
+    --grey: rgb(209, 209, 209);
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url(https://sed.edu.vn/wp-content/uploads/2022/04/anh2-hinh-minh-hoa-hieu-ung-kinh-mo.jpeg);
+    background-position: center;
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ggnavbar {
+    padding: 20px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.12) 45%, rgba(0, 0, 0, 0.05) 65%, rgba(0, 0, 0, 0) 100%);
+    background-origin: padding-box;
+    background-size: auto;
+    display: block;
+    font-size: 13px;
+    height: 80px;
+    top: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+.btn {
+    background-color: var(--light-grey);
+    margin-left: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0;
+}
+.btn:hover {
+    background-color: var(--grey);
+    color: black;
+    border: 1px solid black;
+    border-radius: 0;
+    transition: all 0.3s;
+}
+
+#logo {
+    margin: 20px;
+    height: 92px;
+    width: 272px;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+#search {
+    height: 44px;
+    min-width: 561px;
+    border: 1px solid black;
+    border-radius: calc(0.5 * 44px);
+    box-shadow: 0 2px 4px 0;
+    font-size: 16px;
+    padding: 14px;
+    display: block;
+}
+
+.center {
+    margin-top: 40px;
+    min-width: 561px;
+    text-align: center;
+}
+
+#submit {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border: none;
+    background-color: var(--light-grey);
+}
+#submit:hover {
+    background-color: var(--grey);
+    transition: all 0.3s;
+}
+
+
+
+
