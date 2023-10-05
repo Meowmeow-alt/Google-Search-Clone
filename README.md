@@ -19,9 +19,13 @@ Have you ever wondered how Google works? How does it find the most relevant and 
 
 I love to explore and experiment with new technologies and ideas. That’s why I decided to create my own Google search clone for fun.
 
+---
+
 ## DESCRIPTION:
 
 My project is a web application that allows users to search the web using different modes and filters. It has three pages: general search, image search, and advanced search.
+
+---
 
 ## TO-DO:
 
